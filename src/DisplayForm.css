@@ -1,0 +1,72 @@
+.resultform {
+  background-color: white;
+}
+
+.title {
+  background-color: white;
+  border: 0;
+  color: black;
+  font-size: 133.3333%;
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.author_container {
+  display: flex;
+
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: center;
+}
+.author {
+  color: black;
+  /*font-size: 10 px;
+  font-family: "Times New Roman";
+  text-align: center; */
+  margin-bottom: 10px;
+}
+
+.university_container {
+  display: flex;
+
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: center;
+}
+.university {
+  color: black;
+  font-size: 9 px;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+.email_container {
+  display: flex;
+
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: center;
+}
+.email {
+  color: black;
+  font-size: 9 px;
+  font-family: "Courier";
+  text-align: center;
+  margin-bottom: 30px;
+}
+.abstract {
+  color: black;
+  font-size: 9 px;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+.keyword {
+  color: black;
+  font-size: 9 px;
+  font-family: "Times New Roman";
+  text-align: center;
+}

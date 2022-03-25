@@ -1,0 +1,22 @@
+/*
+body {
+  counter-reset: figcaption;
+}
+*/
+/*
+figcaption {
+  counter-reset: h2;
+}
+*/
+.se-wrapper-inner {
+  counter-reset: __se__katex;
+}
+.__se__katex:after {
+  counter-increment: __se__katex;
+  content: "(" counter(__se__katex) ")";
+  padding-left: 500px;
+}
+
+h4 {
+  font-weight: lighter;
+}

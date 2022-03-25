@@ -1,0 +1,17 @@
+/*
+body {
+  counter-reset: figcaption;
+}
+*/
+/*
+figcaption {
+  counter-reset: h2;
+}
+*/
+.se-wrapper {
+  counter-reset: figcaption;
+}
+figcaption:before {
+  counter-increment: figcaption;
+  content: "Fig." counter(figcaption) ". ";
+}

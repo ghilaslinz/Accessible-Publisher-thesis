@@ -1,0 +1,141 @@
+.project {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: white;
+
+  box-shadow: 0px 5px 8px -9 rgba(0, 0, 0, 0.95);
+  max-width: 20%;
+  /*  height: 100%;
+  border: 1px solid black;*/
+}
+
+.sidebar {
+  margin: 0px;
+
+  height: 100vh;
+}
+.sidebar__option {
+  color: grey;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.sidebar__option > .MuiSvgIcon-root {
+  color: gray;
+}
+/*
+.sidebar__option:hover > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+*/
+.sidebar__button {
+  width: 100%;
+}
+.sidebar__option:hover > button {
+  color: #2e81f4;
+}
+.sidebar__option-active > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+.sidebar__option-active {
+  border-bottom: 4px solid #2e81f4;
+}
+.feed {
+  margin: 50px;
+  min-width: 100%;
+}
+
+.buttonSave{
+  background-color: white;
+}
+.MuiBox-root{
+  counter-reset: h1;
+
+}
+.image__block {
+  border: 1px rgb(218, 217, 217) solid;
+  width: 70vw;
+  padding : 5px;
+  margin-bottom : 5px;
+  /* margin: 10px;*/
+  display: flex;
+  justify-content: space-between;
+}
+/*
+.image__deleteIcon {
+  margin-top: auto;
+}
+*/
+
+.image__button {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/*
+h1,
+#headingOne {
+  counter-reset: h2;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+h2,
+#headingSecond {
+  counter-reset: h3;
+  font-weight: bold;
+  font-size: 13.5px;
+}
+
+h1:before {
+
+  counter-increment: h1;
+  content: counter(h1) ". ";
+}
+
+h2:before {
+  counter-increment: h2;
+  content: counter(h1) "." counter(h2) ". ";
+}
+
+h1.nocount:before,
+h2.nocount:before {
+  content: "";
+  counter-increment: none;
+}
+*/
+h4 {
+  font-weight: lighter;
+}
+
+.editor {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  border: 1px rgb(218, 217, 217) solid;
+  margin-bottom : 5px;
+
+}
+.editor__inside {
+  position: relative;
+}
+.editor__deleteIcon {
+  
+  
+  margin-top: 1em;
+}
+
+.textfield__icon {
+  cursor: auto;
+}
+.math{
+  display: flex;
+  justify-content: space-between;
+  border: 1px rgb(218, 217, 217) solid;
+  width: 70vw;
+  padding : 5px;
+  margin-bottom : 5px;
+  /* margin: 10px;*/
+ 
+}
+

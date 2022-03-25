@@ -1,0 +1,86 @@
+.FirstRendering {
+  display: flex;
+}
+.secondRendering {
+  display: flex;
+}
+
+head {
+  counter-reset: mathKatexNumber;
+}
+
+.inputMath{
+  width: 40vw;
+}
+
+
+
+html{
+  counter-reset: h2;
+}
+
+.h1,
+#headingOne {
+  counter-reset: h2;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.h2,
+#headingSecond {
+  counter-reset: h3;
+  font-weight: bold;
+  font-size: 13.5px;
+}
+
+.h1:before {
+
+  counter-increment: h1;
+  content: counter(h1) ". ";
+}
+
+.h2:before {
+  counter-increment: h2;
+  content: counter(h1) "." counter(h2) ". ";
+  counter-reset: h3;
+}
+/*
+.h1.nocount:before,
+.h2.nocount:before {
+  content: "";
+ counter-increment: none;
+}
+*/
+h3{
+  font-weight: lighter;
+} 
+
+.image{
+  display:flex; 
+align-items:center;
+justify-content:center;
+max-width:300px;
+}
+
+.MuiToolbar-root {
+  counter-reset: figcaption;
+}
+.figcaption:before {
+  counter-increment: figcaption;
+  content: "Fig." counter(figcaption) ". ";
+}
+body{
+  counter-reset: mathKatexNumber;
+}
+.mathKatexNumber:after{
+  counter-increment: mathKatexNumber;
+  content: "("  counter(mathKatexNumber) ")";
+  padding-left: 100px;
+}
+
+.mathKatexNumberResult:after {
+  counter-increment: mathKatexNumberResult;
+  content: "("  counter(mathKatexNumberResult) ")";
+  padding-left: 100px;
+ 
+}

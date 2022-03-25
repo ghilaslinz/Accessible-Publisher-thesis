@@ -1,0 +1,18 @@
+.FirstRendering {
+  display: flex;
+}
+.secondRendering {
+  display: flex;
+}
+
+html {
+  counter-reset: mathKatexNumber;
+}
+.mathKatexNumber:after {
+  counter-increment: mathKatexNumber;
+  content: "("  counter(mathKatexNumber) ")";
+  padding-left: 100px;
+}
+.inputMath{
+  width: 40vw;
+}

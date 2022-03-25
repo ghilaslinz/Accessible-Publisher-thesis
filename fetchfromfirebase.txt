@@ -1,0 +1,83 @@
+					<div className="author">
+           {element.type==="headingFirst" ?  <TextField
+
+name="text"
+id="heading level one"
+aria-required="true"
+variant="outlined"
+
+multiline
+fullWidth
+className={classes.textZone}
+onChange={(event) => handleChangeInput(element.id, event)}
+InputProps={{
+  startAdornment: (
+    <InputAdornment position="start">
+      <div className="h1" />
+    </InputAdornment>
+  ),
+  endAdornment: (
+    <InputAdornment position="end">
+      <DeleteIcon aria-label="remove heading level one creator"
+        className="textfield__icon"
+        //disabled={textZones.length === 1}
+        onClick={() => handleRemoveFields(element.id)}
+      ></DeleteIcon>
+    </InputAdornment>
+  ),
+}}
+              defaultValue={element.text} />  : <div> </div>}{/*: elemento.type==="headingSecond" ?  <TextField
+
+              name="text"
+              id="heading level second"
+              aria-required="true"
+              variant="outlined"
+           
+              multiline
+              fullWidth
+              className={classes.textZone}
+              onChange={(event) => handleChangeInput(elemento.id, event)}
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position="start">
+                   <div className="h2" />
+                  </InputAdornment>
+                ),
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <DeleteIcon aria-label="remove heading level two creator"
+                      className="textfield__icon"
+                      onClick={() => handleRemoveheadingSeconds(elemento.id)}
+                    ></DeleteIcon>
+                  </InputAdornment>
+                ),
+              }}
+              defaultValue={elemento.text} /> :  elemento.type==="image" ?   <Image
+                            name="text"
+                           
+                            element={elemento}
+                            handleImageChange={handleImageChange}
+                            handleChangeImageCaption={handleChangeImageCaption}
+                          /> 
+                          :  elemento.type==="mathjax" ?      
+                          
+                          <MathJaxFunction
+                          element={elemento}
+                          handleMathjaxChange={handleMathjaxChange}
+                        />  
+                        :  elemento.type==="nestedtable" ?   
+                        
+                        <NestedDataTable
+                        handleAddCell={handleAddCell}
+                        element={elemento}
+                        handleEditCellText={handleEditCellText}
+                        handleDeleteCell={handleDeleteCell}
+                      />
+            */}
+
+             
+            
+					
+					  
+					  ,{" "}
+					</div>

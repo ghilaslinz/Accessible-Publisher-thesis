@@ -1,0 +1,42 @@
+
+/*
+.public-DraftStyleDefault-ltr{
+    display: none;
+}
+*/
+
+/*
+html {
+    counter-reset: bibliographyNumberEditor;
+  }
+  .bibliographyNumberEditor:before {
+    counter-increment: bibliographyNumberEditor;
+    content: counter(bibliographyNumberEditor) ". ";
+  }
+  */
+  div.DraftEditor-root {
+   
+    
+   /* width: 65vw;*/
+    max-width: 780px;
+    
+  }
+  h3
+  {font-size: 13.5px;
+     font-weight:"bold"
+    }
+
+  
+    .DraftEditor-root h3{
+    font-size: 13.5px;
+     font-weight:bold;
+    
+  }
+
+  .DraftEditor-root h4{
+    font-size: 13.5px;
+    font-style: italic;
+    
+  }
+
+  

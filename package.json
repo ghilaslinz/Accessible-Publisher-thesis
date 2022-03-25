@@ -1,0 +1,81 @@
+{
+  "name": "seditor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "^11.4.0",
+    "@emotion/core": "^10.1.1",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mdi/font": "^5.7.55",
+    "@mui/icons-material": "^5.0.1",
+    "@mui/material": "^5.0.2",
+    "@reach/alert": "^0.16.0",
+    "@react-aria/radio": "^3.1.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.5.3",
+    "browserify-fs": "^1.0.0",
+    "classnames": "^2.3.1",
+    "draft-js": "^0.11.7",
+    "firebase": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "html-to-docx": "^1.2.1",
+    "html-to-latex": "^0.8.0",
+    "http2": "^3.3.7",
+    "jquery": "^3.6.0",
+    "juice": "^8.0.0",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "mathjax": "^3.1.2",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-accessible-accordion": "^4.0.0",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.13.1",
+    "react-draft-wysiwyg": "^1.14.7",
+    "react-faq-component": "^1.3.1",
+    "react-floating-button-menu": "^2.1.1",
+    "react-helmet": "^6.1.0",
+    "react-html-document": "^3.1.0",
+    "react-icons": "^3.11.0",
+    "react-images-uploading": "^3.1.3",
+    "react-katex": "^2.0.2",
+    "react-mathjax": "^1.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "reactjs-popup": "^2.0.5",
+    "save-file": "^2.3.1",
+    "styled-components": "^5.3.1",
+    "suneditor": "^2.40.0",
+    "suneditor-react": "^3.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+a.link{
+  color : #3366BB;
+}
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #F8F9FA;
+}
+
+.skip-links  a {
+  padding: 0.2em 0.3em;
+  position: absolute;
+  top: -2em;
+
+  background-color: #000;
+
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 0;
+}

@@ -1,0 +1,13 @@
+
+head {
+  counter-reset: tablecaption;
+}
+.tablecaption:before {
+  counter-increment: tablecaption;
+  content: "Table" counter(tablecaption) ". ";
+ 
+
+  padding-left: 400px;
+
+}
+

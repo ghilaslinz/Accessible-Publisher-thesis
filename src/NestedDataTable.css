@@ -1,0 +1,12 @@
+body {
+    counter-reset: caption;
+  }
+  caption:before {
+    counter-increment: caption;
+    content: "Table." counter(caption) ". ";
+  }
+  caption {
+    width: 300px;
+    text-align: center;
+  }
+ 

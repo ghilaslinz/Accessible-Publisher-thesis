@@ -1,0 +1,19 @@
+.MuiToolbar-root {
+  counter-reset: figcaption;
+}
+figcaption:before {
+  counter-increment: figcaption;
+  font-weight: 400;
+  content: "Fig." counter(figcaption) ". ";
+}
+input {
+  width: 80%;
+}
+.image__caption {
+  margin-bottom: 5px;
+}
+.img-result{
+ /*width: 40vw;*/
+  max-width: 780px;
+}
+

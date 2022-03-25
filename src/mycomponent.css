@@ -1,0 +1,14 @@
+.subtoolbar {
+  background-color: #fafafa;
+}
+
+.barbutton {
+  text-decoration: none;
+  border: none;
+
+  margin: 15px 32px;
+  background-color: #f8f8f8;
+}
+.barbutton:hover {
+  background-color: #e8e8e8;
+}

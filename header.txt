@@ -1,0 +1,61 @@
+        <div   >  {database.id && (
+      <div  key={database.id}>
+      <h1 className="title">  {database.title} </h1>
+  
+        <div    className="author_container">
+        {database.inputFields.map((inputField, index) => (
+          <div key={inputField.id}>
+          <div className="author">
+            {inputField.author}
+            <sup>
+            {universitySet.findIndex(
+              (uni) => uni.university === inputField.university
+            ) + 1}
+            </sup>
+            ,{" "}
+          </div>
+          </div>
+        ))}
+        </div>
+        
+
+        <div>
+        {database.elements.map((element, index) => (
+          <div key={element.id}>
+
+          </div>
+        ))}
+          </div>
+        <div    className="author_container">
+        {database.inputFields
+          .filter((item, index) => {
+          return (
+            database.inputFields.findIndex(
+            (field) => field.university === item.university
+            ) === index
+          );
+          })
+          .map((inputField, index) => (
+          <div key={inputField.id}>
+            <div  className="university">
+            <sup>{index + 1}</sup>
+            {inputField.university},{" "}
+            </div>
+          </div>
+          ))}
+        </div>
+  
+        <div   className="email_container">
+        {database.inputFields.map((inputField) => (
+          <div key={inputField.id}>
+          <div   className="email">{inputField.email}, </div>
+          </div>
+        ))}
+        </div>
+  
+        <div className="abstract">{"Abstact: " + database.abstract}</div>
+  
+        <div   className="keyword">{"Keywords: " + database.keyword}</div>
+      </div>
+      )} </div>
+        

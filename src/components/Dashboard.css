@@ -1,0 +1,24 @@
+.dashboard_elements  ul{
+    list-style-type: none
+
+}
+
+
+.dashboard_elements{
+   /* display: flex;
+    justify-content: space-between*/
+   
+}
+
+.caca{
+    position: relative;
+}
+.dashboard_icons {
+   margin-left: 75vw;
+
+}
+.dashboard_elements{
+    border : 1px black solid;
+
+    margin-bottom: 10px;
+}

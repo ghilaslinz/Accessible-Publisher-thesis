@@ -1,0 +1,42 @@
+body {
+  counter-reset: se-custom-tag;
+ 
+}
+
+.se-custom-tag:after {
+  counter-increment: se-custom-tag;
+  content: "[" counter(se-custom-tag) "]";
+}
+.sun-editor {
+  counter-reset : liste;
+  }
+.liste:before{
+  counter-increment: liste;
+  content: counter(liste) ".";
+}
+/*
+.__se__format__range_custom {
+  border: 1px solid black;
+}
+*/
+/*
+.__referece_number {
+  border: 1px solid black;
+}
+*/
+
+/*
+.se-wrapper {
+  padding: 40px;
+  background: #ccc;
+}
+*/
+
+.espace {
+  padding-bottom: 3opx;
+}
+
+.__link_number {
+  border: 2px solid black;
+  color: blue;
+}
